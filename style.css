@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+body{
+    background-color: rgb(99, 146, 211);
+    color: white;
+    margin: 0px;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(71, 111, 175);
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 0px 10px 11px 0px rgba(6, 35, 127, 0.1);
+    -moz-box-shadow: 0px 10px 11px 0px rgba(12, 53, 235, 0.1);
+    justify-content: left;
+    align-items: right;
+    flex-direction: column;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 7px 10px 11px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 7px 10px 11px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 7px 10px 11px 0px rgba(0,0,0,0.1);
+}
+nav ul li:hover { 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-card {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+    text-align: center;
+}
